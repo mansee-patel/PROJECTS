@@ -1,0 +1,120 @@
+*
+{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+}
+.container
+{
+	height:100%;
+	width:100%;
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://media-exp1.licdn.com/dms/image/C511BAQFkHs8A-rK_vw/company-background_10000/0/1538102174177?e=2159024400&v=beta&t=vWWczD9YSvzNU34AUfHF-CiQKKRg6eH9DHij2fjOvxY'); 		
+	background-position:center;
+	background-size:cover;
+	position:absolute;
+}
+
+.form
+{
+	width:380px;
+	height: 480px;
+	position: relative;	margin: 6% auto;
+	background:#fff;
+	padding:5px;
+	overflow:hidden;
+	border-radius: 20px;
+	
+}
+
+#register.input-btn
+{
+	margin-top: -50px;
+}
+
+.button
+{
+	width:220px;
+	margin: 35px auto;
+	position : relative;
+	box-shadow:0 0 20px 9px #ff61241f;
+	border-radius:30px;
+}
+
+.butn
+{
+	padding:10px 30px;
+	cursor: pointer;
+	background:transparent;
+	border:0;
+	outline:none;
+	position:relative;
+}
+
+#btn
+{
+	top:0;
+	left:0;
+	position:absolute;
+	width: 200px;
+	height:100%;
+	background:linear-gradient(to right,#ff105f,#ffad06);
+	border-radius:30px;
+	transition:0.5s;
+}
+
+.input-btn
+{
+	top:180px;
+	position:absolute;
+	width:280px;
+ 	transition:0.5s;
+}
+
+.input-field
+{
+	width:100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top:0;
+	border-bottom:1px solid #999;
+	outline:none;
+	background:transparent;
+	margin-bottom:10px;
+	
+}
+
+.submit-btn
+{
+	width:85%;
+	padding:10px 30px;
+	cursor:pointer;
+	display:block;
+	margin:auto;
+	background:linear-gradient(to right,#ff105f,#ffad06);
+	border:0;
+	outline:none;
+	border-radius:30px;
+	margin-top:30px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	
+}
+
+#login
+{
+	left:50px;
+}
+
+#register
+{
+ 	left:450px;
+}
+
+
+#user, #passw,#userid1,#password2,#email2,#pa,#Password2
+{
+	color: red;
+}
